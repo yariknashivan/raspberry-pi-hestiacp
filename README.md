@@ -1,7 +1,6 @@
 # raspberry-pi-hestiacp
 
-Download Ubuntu 20.04 image from
-https://ubuntu.com/download/raspberry-pi (arm64)
+Download Ubuntu 20.04 image from https://ubuntu.com/download/raspberry-pi (arm64)
 
 Change files to access raspberry pi via ssh:
 
@@ -28,7 +27,8 @@ wifis:
 ```
 
 
-Go to http://192.168.0.1/ and check your Raspberry Pi ip address (DHCP Client List). It may take up to 5 minutes.
+Go to http://192.168.0.1/ and check your Raspberry Pi ip address (DHCP Client List).  
+It may take up to 5 minutes.
 
 
 ```
@@ -78,8 +78,18 @@ cd ../install
 bash hst-install-ubuntu.sh --with-debs /tmp/hestiacp-src/deb/
 ```
 
+https://192.168.0.104:8083/ - admin panel  
+login: admin  
+To reset password:
+```
+passwd admin
+```
 
+Change phpMyAdmin password:
 
+```
+nano /usr/local/hestia/conf/mysql.conf
+```
 
 Remove swap file:
 ```

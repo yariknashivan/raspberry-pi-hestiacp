@@ -124,3 +124,8 @@ sudo rm /swapfile
 
 ------------------------------------------------------------------------
 
+For a Raspberry Pi:
+```
+sudo apt install libraspberrypi-bin
+sudo vcgencmd measure_temp
+```

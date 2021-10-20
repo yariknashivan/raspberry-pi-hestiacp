@@ -129,3 +129,21 @@ For a Raspberry Pi:
 sudo apt install libraspberrypi-bin
 sudo vcgencmd measure_temp
 ```
+
+```
+sudo apt install net-tools
+ifconfig
+```
+
+------------------------------------------------------------------------
+
+Create an account at https://noip.com  
+Create a hostname (example: nashivan.ddns.com)  
+Modify a hostname - change IPv4 Address (example: 192.168.0.102). 
+
+Create a new user in HestiaCP and add a web domain (as your hostname)
+Go to your website, you will see:
+![Domain](https://i.ibb.co/PgQs3Vg/image.png)
+
+
+

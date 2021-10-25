@@ -145,5 +145,19 @@ Create a new user in HestiaCP and add a web domain (as your hostname)
 Go to your website, you will see:
 ![Domain](https://i.ibb.co/PgQs3Vg/image.png)
 
+------------------------------------------------------------------------
 
+Deploy Django project **(in testing..)**  
+Add new templates:
+```
+cd /usr/local/hestia/data/templates/web
+git clone https://github.com/realjumy/hestiacp-python-templates.git temp
+mv temp/apache2/php-fpm/* apache2/php-fpm/
+chmod +x apache2/php-fpm/*.sh
+mv temp/nginx/* nginx/
+rm -r temp
+```
 
+Create a package, create a new user, set a package for a new user and create a new website.
+
+------------------------------------------------------------------------

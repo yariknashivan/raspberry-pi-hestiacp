@@ -96,7 +96,14 @@ Logout and login again.
 ------------------------------------------------------------------------
 
 If you want to update to a stable version:
+```
 v-update-sys-hestia-git hestiacp release
+```
+If you want to change a user:
+```
+v-change-user-shell yarik nologin
+sudo - yarik
+```
 
 ------------------------------------------------------------------------
 

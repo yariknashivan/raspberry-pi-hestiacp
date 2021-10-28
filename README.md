@@ -149,6 +149,7 @@ Now you need to make port forwarding:
 8083 - HestiaCP  
 80 - website (default port)  
 22 - ssh  
+21 - ftp  
 If you have an error: The port of the remote web management is conflicting with of the virtual server.  
 You need to change a port for Remote Management (from 80 to 81):  
 ![Remote Management](https://i.ibb.co/PDyDdTt/image.png)

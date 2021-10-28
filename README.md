@@ -143,7 +143,7 @@ ifconfig
 ```
 
 ------------------------------------------------------------------------
-
+Add the Raspberry Pi ip address to an address reservation list. It will make ip static.  
 Now you need to make port forwarding:  
 ![Forwarding](https://i.ibb.co/D9Xt5G8/image.png)  
 8083 - HestiaCP  

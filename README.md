@@ -191,6 +191,15 @@ sudo service ddclient restart
 Add a domain in a HestiaCP and you will see something like this:
 ![nashivan](https://i.ibb.co/jrpVYdR/image.png)
 
+## How to make a subdomain:
+
+Add a DNS record in NameCheap (ex.: test.nashivan.com)
+```
+A+  test  31.133.92.161 TTL auto
+```
+
+Go to HestiaCP and create a subdomain. Add a DNS record to a zone.  
+Done!
 
 ## If you don't have a domain:
 

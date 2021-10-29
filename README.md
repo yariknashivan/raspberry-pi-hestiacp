@@ -138,6 +138,11 @@ sudo vcgencmd measure_temp
 ```
 
 ```
+sudo apt install sysbench
+sysbench --test=cpu --cpu-max-prime=5000 --num-threads=4 run
+```
+
+```
 sudo apt install net-tools
 ifconfig
 ```

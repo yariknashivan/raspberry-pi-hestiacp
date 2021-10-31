@@ -226,6 +226,18 @@ Go to your website, you will see:
 
 ------------------------------------------------------------------------
 
+## Move HestiaCP to a subdomain:
+
+1. Go to HestiaCP -> Configure Server -> Security -> Policy and disable Enforce Subdomain rules
+2. ```v-change-sys-hostname cp.nashivan.com```
+3. Add DNS record for "cp" and wait for a DNS update
+4. ```v-add-letsencrypt-host```
+
+
+HestiaCP is available at cp.nashivan.com:8083
+
+------------------------------------------------------------------------
+
 Deploy Django project **(in testing..)**  
 Add new templates:
 ```
